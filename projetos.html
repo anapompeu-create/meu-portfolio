@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus projetos | Ana Beatriz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <section class="perfil">
+            <img src="imagens/minha-foto.png" alt="Foto de Ana Beatriz">
+
+            <h1>Ana Beatriz</h1>
+
+            <p class="subtitulo">
+                Desenvolvedora Front-end no Programa Trilhas
+            </p>
+        </section>
+
+        <section class="secao">
+            <h2>Meus projetos</h2>
+
+            <p>
+                Aqui estão alguns projetos que desenvolvi durante
+                meus estudos de programação e informática.
+            </p>
+        </section>
+
+        <div class="cartoes-projetos">
+
+  
+<section class="cartao-projeto">
+    <h3>Projeto 1 — Tabuada em C</h3>
+
+    <p>
+        Este projeto foi desenvolvido em linguagem C no Dev-C++.
+        O programa solicita dez números ao usuário e mostra
+        o resultado da multiplicação de cada número por 2.
+    </p>
+
+    <p><strong>Tecnologia:</strong> Linguagem C</p>
+
+    <p><strong>O que pratiquei:</strong> Variáveis, laço de
+    repetição, entrada de dados e operações matemáticas.</p>
+
+    <details>
+        <summary>Ver código do projeto</summary>
+        <pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    int a;
+    int b;
+    b = 2;
+    int result;
+    int i;
+
+    for (i = 0; i &lt; 10; i++) {
+        printf("digite o valor de a\n");
+        scanf("%i", &amp;a);
+
+        result = a * b;
+        printf("o resultado de %i x %i = %i\n", a, b, result);
+    }
+
+    return 0;
+}</code></pre>
+    </details>
+</section>
+
+    
+<section class="cartao-projeto">
+    <h3>Verificador de aprovação em C</h3>
+
+    <p>
+        Esse projeto foi desenvolvido em linguagem C
+        utilizando o Dev-C++. O programa solicita a nota
+        do aluno e verifica se ele foi aprovado ou reprovado,
+        considerando a média 7,0 como critério de aprovação.
+    </p>
+
+    <p><strong>Tecnologia:</strong> Linguagem C</p>
+
+    <details>
+        <summary>Ver código do projeto</summary>
+
+        <pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    float m;
+
+    printf("Insira a nota:\n");
+    scanf("%f", &amp;m);
+
+    if (m &gt;= 7.0) {
+        printf("Aluno aprovado(a)!\n");
+    }
+    else if (m &lt; 7.0) {
+        printf("Aluno reprovado!\n");
+    }
+
+    return 0;
+}</code></pre>
+    </details>
+</section>
+
+
+<nav class="botoes">
+    <a href="index.html">Voltar ao perfil</a>
+</nav>
+
+</main>
+
+</body>
+</html>
